@@ -1,0 +1,120 @@
+Visual Studio Code (VS Code) on Windows 11
+Installation of VS Code
+Steps to Download and Install Visual Studio Code on Windows 11
+Download VS Code:
+
+Visit the Visual Studio Code website.
+Click on the Windows download button to download the installer.
+Run the Installer:
+
+Open the downloaded installer file (VSCodeSetup-{version}.exe).
+Follow the installation prompts. This may require administrative privileges.
+Accept the agreement and proceed through the installation steps.
+Click "Finish" to complete the installation.
+Prerequisites
+Ensure your Windows 11 system meets the system requirements for VS Code.
+Install any required dependencies prompted by the installer.
+First-time Setup
+Initial Configurations and Settings
+Open VS Code:
+
+Launch VS Code from the Start Menu or desktop shortcut.
+Access Settings:
+
+Press Ctrl+, or navigate to File > Preferences > Settings.
+Adjust Key Settings:
+
+Appearance: Change the theme (workbench.colorTheme), font size (editor.fontSize), and font family (editor.fontFamily) under Settings.
+Extensions: Install recommended extensions by clicking on the Extensions view in the Activity Bar and searching for needed tools.
+Workspace: Configure workspace-specific settings in the .vscode/settings.json file.
+User Interface Overview
+Main Components of the VS Code User Interface
+Activity Bar: Provides quick access to various views such as Explorer, Search, Source Control, and Extensions.
+
+Side Bar: Contains the Explorer (file navigator), Search, Source Control, and Extensions views.
+
+Editor Group: The main area where files open as tabs for editing.
+
+Status Bar: Displays information like line endings, language mode, and Git status.
+
+Command Palette
+Description and Access
+The Command Palette allows you to execute commands by typing them.
+Access it by pressing Ctrl+Shift+P.
+Examples of Common Tasks
+Install extensions: Extensions: Install Extensions
+Change the theme: Preferences: Color Theme
+Format code: Format Document
+Extensions in VS Code
+Role and Management
+Role: Extensions enhance the functionality of VS Code by adding new features.
+
+Finding Extensions:
+
+Click on the Extensions view in the Activity Bar.
+Search for extensions by name or functionality.
+Installing and Managing:
+
+Click "Install" on the desired extension's page.
+Manage installed extensions from the Extensions view.
+Essential Extensions for Web Development
+ESLint: Linting for JavaScript.
+Prettier: Code formatter.
+Live Server: Launch a development local server with live reload feature.
+Integrated Terminal
+Opening and Using the Integrated Terminal
+Open Terminal: Press Ctrl+` (Backtick key) to open the integrated terminal.
+Advantages:
+Run commands directly within VS Code.
+Access project-specific commands and manage Git without leaving the editor.
+File and Folder Management
+Creating, Opening, and Managing Files and Folders
+Create:
+
+Right-click in the Explorer view and select New File or New Folder.
+Open:
+
+Double-click a file to open it.
+Navigate:
+
+Use Ctrl+Tab to cycle through open files.
+Use Ctrl+P to quickly open files by name.
+Settings and Preferences
+Customizing Settings
+Access Settings: Press Ctrl+, or go to File > Preferences > Settings.
+Examples of Customizations
+Change Theme:
+
+Search for Color Theme and select the desired theme.
+Adjust Font Size:
+
+Search for Font Size and set the preferred size.
+Modify Keybindings:
+
+Go to Keyboard Shortcuts and change keybindings as needed.
+Debugging in VS Code
+Setting Up and Starting Debugging
+Configure:
+
+Create a launch.json file via the Debug view (Ctrl+Shift+D).
+Define the configuration for your debugging environment.
+Start Debugging:
+
+Select the appropriate configuration and click Start Debugging or press F5.
+Key Debugging Features
+Breakpoints: Set breakpoints in your code to pause execution.
+Variable Inspection: Inspect variables during debugging.
+Step Through Code: Use stepping controls to navigate through your code.
+Using Source Control
+Integrating Git with VS Code
+Initialize a Repository:
+
+Open a folder in VS Code.
+Open the Source Control view (Ctrl+Shift+G) and initialize a Git repository.
+Making Commits:
+
+Stage changes by clicking + next to the files.
+Enter a commit message and click the checkmark to commit.
+Pushing Changes to GitHub:
+
+Click ... next to the branch name, select Push, and follow the prompts to push your changes.
